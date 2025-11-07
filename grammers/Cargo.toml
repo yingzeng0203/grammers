@@ -14,3 +14,7 @@ edition = "2024"
 
 [dependencies]
 grammers-client = "0.8.0"
+grammers-mtsender = "0.8.0"
+grammers-session = "0.8.0"
+grammers-tl-types = "0.8.0"
+tokio = { version = "1.48", features = ["full"] }
